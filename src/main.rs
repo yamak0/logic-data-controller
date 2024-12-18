@@ -20,12 +20,12 @@ fn main() {
     let table = TableController::new(
         // TODO pass pin numbers as env var
         ControlPins {
-            up_motor_pin: 22,
-            up_controller_pin: 24,
-            down_motor_pin: 27,
-            down_controller_pin: 23,
-            signal_motor_pin: 17,
-            signal_controller_pin: 25,
+            up_motor_pin: 534,
+            up_controller_pin: 536,
+            down_motor_pin: 539,
+            down_controller_pin: 535,
+            signal_motor_pin: 529,
+            signal_controller_pin: 537,
         },
         tx_table_info_response,
         rx_table_info_request,
